@@ -1,2 +1,2 @@
 # environment-components
-temp dev repo
+The repository of environment components available to the LabManager application
