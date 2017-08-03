@@ -17,7 +17,8 @@ author:
 image:
   server: hub.docker.com
   namespace: gigdev
-  tag: ubuntu1604-python3:08022017-asdf
+  repo: ubuntu1604-python3
+  tag: 7a7c9d41-2017-08-03
 available_package_managers:
   - pip3
   - apt-get
