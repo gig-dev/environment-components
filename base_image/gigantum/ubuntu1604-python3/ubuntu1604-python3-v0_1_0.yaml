@@ -10,13 +10,13 @@ info:
   os_class: ubuntu
   os_release: "16.04"
 author:
-  name: Dean Kleissas
-  email: dean@gigantum.io
-  username: dean
-  organization: Gigantum
+  name: jd
+  email: jd@gmail.io
+  username: jd
+  organization: Aperture Science
 image:
   server: hub.docker.com
-  repo: gigantum
+  namespace: gigdev
   tag: ubuntu1604-python3:08022017-asdf
 available_package_managers:
   - pip3
