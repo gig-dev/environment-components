@@ -13,11 +13,10 @@ author:
   organization: Strange Science Laboratories
 os_base_class: ubuntu
 development_environment_class: web
-docker_snippet:
-  RUN pip3 install jupyter
-  EXPOSE 8080
-exec_command:
-  cd <labbook_dir>
-  jupyter notebook
-url: localhost:8080
-
+install_commmands:
+  - pip3 install jupyter
+exec_commands:
+  - cd 
+  - jupyter notebook
+exposed_tcp_ports:
+  - 8000
