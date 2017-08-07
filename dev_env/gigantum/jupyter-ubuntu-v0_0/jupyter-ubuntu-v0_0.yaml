@@ -13,7 +13,7 @@ author:
   organization: Strange Science Laboratories
 os_base_class: ubuntu
 development_environment_class: web
-install_commmands:
+install_commands:
   - pip3 install jupyter
 exec_commands:
   - cd 
