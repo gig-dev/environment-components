@@ -1,0 +1,23 @@
+info: 
+  name: jupyter_notebook
+  human_name: Python 3 Jupyter Notebook for Ubuntu
+  description: "Jupyter Notebook environment"
+  version_major: 0
+  version_minor: 0
+  tags: ["python", "notebook"]
+  icon: base64 encoded image file to display as icon
+author:
+  name: John Doe
+  email: jd@gmail.com
+  username: jd
+  organization: Aperture Science Laboratories
+os_base_class: ubuntu
+development_environment_class: web
+docker_snippet:
+  RUN pip3 install jupyter
+  EXPORT 8080
+exec_command:
+  cd <labbook_dir>
+  jupyter notebook
+url: localhost:8080
+
