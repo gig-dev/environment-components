@@ -7,15 +7,15 @@ info:
   tags: ["python", "notebook"]
   icon: base64 encoded image file to display as icon
 author:
-  name: John Doe
-  email: jd@gmail.com
-  username: jd
-  organization: Aperture Science Laboratories
+  name: Johnny Catz
+  email: jc@gmail.com
+  username: jcats
+  organization: Strange Science Laboratories
 os_base_class: ubuntu
 development_environment_class: web
 docker_snippet:
   RUN pip3 install jupyter
-  EXPORT 8080
+  EXPOSE 8080
 exec_command:
   cd <labbook_dir>
   jupyter notebook
