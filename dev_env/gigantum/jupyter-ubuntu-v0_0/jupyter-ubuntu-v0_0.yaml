@@ -16,7 +16,7 @@ development_environment_class: web
 install_commands:
   - pip3 install jupyter
 exec_commands:
-  - cd 
-  - jupyter notebook
+  - jupyter notebook --ip=0.0.0.0 --NotebookApp.token='' --no-browser
 exposed_tcp_ports:
   - 8000
+  - 8888
