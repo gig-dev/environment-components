@@ -19,5 +19,11 @@ image:
   repo: ubuntu1604-python3
   tag: 7a7c9d41-2017-08-03
 available_package_managers:
-  - pip3
-  - apt-get
+  - 
+    name: pip3
+    description: pip package manager for Python 3
+    docker: RUN pip3 install $PKG$
+  - 
+    name: apt-get
+    description: apt-get package manager for Ubuntu
+    docker: RUN apt-get -y install $PKG$
