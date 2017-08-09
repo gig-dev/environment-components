@@ -1,5 +1,5 @@
 info: 
-  name: jupyter_ubuntu_dup
+  name: jupyter-ubuntu-dup
   human_name: Python 3 Jupyter Notebook for Ubuntu
   description: "Jupyter Notebook environment"
   version_major: 0
